@@ -1,24 +1,33 @@
 # vue-calculator
 
 ## Project setup
+
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 npm run serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+# 项目描述
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+项目中需要使用到计算器面板，配合项目的计算因子来配制公式，在找了一番后没有找到合适的，遂自己开发了这个计算器的组件。
+
+兼容性：兼容 ie9+，Chrome，Safari，Firefox。
+
+API接口
+
+| 事件名 | 说明 | 返回值 |
+| :- | :- | :- |
+| on-select | 单击计算器面板中的元素触发。 | · value：点击的元素值 |
+
+
